@@ -1,0 +1,103 @@
+*.body {
+    justify-content: space-between;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+} 
+
+
+
+
+.container{
+    padding: 10px;
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1.5fr 2fr 2.5fr;
+    grid-template-rows: 4fr 5fr 6fr;
+    row-gap:10px;
+    column-gap: 10px;
+    background-color: rgb(218, 101, 122);
+}
+
+
+.f1, .f2, .f3, .f4, .f5, .f6, .f7, .f8, .f9, .f10 {
+    border: 1px solid black;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.f1{
+    background-image: url(imagem\ 1.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+}
+
+.f2{
+    background-image: url(imagem\ 2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f3{
+    background-image: url(imagem\ 3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f4{
+    background-image: url(imagem\ 4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f5{
+    background-image: url(imagem\ 5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f6{
+    background-image: url(imagem\ 6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f7{
+    background-image: url(imagem\ 7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f8{
+    background-image: url(imagem\ 8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f9{
+    background-image: url(imagem\ 9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.f10{
+    background-image: url(imagem\ 010.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
